@@ -1,0 +1,1595 @@
+body, html {
+	margin: 0 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #8B821F;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: black;
+}
+
+.navbar-default {
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: white!important;
+    background-color: black!important;
+}
+
+.navbar-toggler {
+  color: black !important;
+}
+
+.dropdown li a:hover {
+	color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+    background-image: none;
+    box-shadow: none;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: black;
+    background-image: none;
+}
+
+.dropdown-menu>li {
+	margin-bottom: 6px;
+}
+
+.navbar-brand img {
+    position: relative;
+	top: -3px;
+	margin-left: 5px;
+}
+
+.navbar-nav>li>a {
+    text-shadow:none;
+}
+
+.navbar-nav>li>a:focus {
+    color: white!important;
+	text-shadow: none!important;
+}
+
+.navbar-nav>li>a:hover {
+    color: white!important;
+	text-shadow: none!important;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #8B821F; 
+    }
+
+.dropdown-menu {
+	background: black;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #8B821F;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li:hover {
+    background-color: #2A2A2A;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #262626;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+	margin-bottom: 0px;
+	box-shadow: 0 1px 20px -5px black;
+	border-radius: 0px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.form-control {
+    display: block;
+    width: 99%;
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0px;
+	margin-top: 3px;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-form {
+    margin-bottom: 0px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 3px;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+	border-radius: 0px;
+	color: #8B821F;
+	background-color: transparent;
+	text-shadow: none;
+}
+
+.btn:hover {
+	color: white;
+	background-color: transparent;
+}
+
+#intro {
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 51% 50%;
+	margin-top: -20px;
+}
+
+#intro h1 {
+	font-family: Evogria, Arial, "sans-serif";
+	font-size: 700%;
+	font-style: italic;
+	letter-spacing: 4px;
+	line-height: 125%;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+  	right: 0;
+   	left: 0;
+	color: black;
+	font-weight: 900;
+	margin-top: 1em;
+	margin-left: -10px;
+}
+
+#titlewrap {
+	width: 50%;
+	height: 235px;
+	margin: 0 auto;
+}
+
+#intro button {
+	font-size: 100%;
+	background-color: rgba(255,255,255, 0.1);
+	color: white;
+	border: 2px solid #8B821F;
+	padding: 10px 1em;
+	cursor: pointer;
+	margin-top: 30px;
+	letter-spacing: 1px;
+	z-index: 999;
+	outline: none;
+}
+
+#intro button:hover {
+	border: 2px solid black;
+}
+
+#best {
+	width: 100%;
+	height: 270px;
+}
+
+#best p {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 150%;
+	font-weight: bold;
+	clear: both;
+	margin-top: 1.6em;
+}
+
+.rating {
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+.rating span {
+	font-size: 1000%;
+	color: #876F2E;
+	margin: 0 auto;
+	letter-spacing: 35px;
+	position: relative;
+	top: -25px;
+	left: 10px;
+	text-align: center;
+}
+
+#nyt {
+	position: relative;
+	top: -1em;
+}
+
+#season1 {
+	background-color:#F5F5F5;
+}
+
+#left {
+	background-image: url(../IMG/2012-Ram-1500-Laramie-Limited-01.jpg);
+	background-size: cover;
+	background-position: 50% 80%;
+	height: 350px;
+}
+
+#right {
+	height: 350px;
+}
+
+#right p {
+	margin: 0;
+	font-size: 300%;
+	width: 90%;
+	line-height: 135%;
+	padding-top: 1.1em;
+}
+
+#right strong{
+	color: #8B821F;
+}
+
+#right button {
+	padding:8px 1.5em;
+	font-size: 120%;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	background-color: transparent;
+	margin-top: 1em;
+}
+
+#right button:hover {
+	border: 2px solid black;
+}
+
+#season2 {
+	background-color:#F5F5F5;
+}
+
+#right1 {
+	background-image: url(../IMG/16_F150_LTD_SC_34FrntPassShadowBlk_HR.jpg);
+	background-size: cover;
+	background-position: 50% 80%;
+	height: 350px;
+}
+
+#left1 {
+	height: 350px;
+}
+
+#left1 p {
+	margin: 0;
+	font-size: 300%;
+	width: 90%;
+	line-height: 135%;
+	padding-top: 1.1em;
+}
+
+#left1 strong{
+	color: #8B821F;
+}
+
+#left1 button {
+	padding:8px 1.5em;
+	font-size: 120%;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	background-color: transparent;
+	margin-top: 1em;
+	outline: 0;
+}
+
+#left1 button:hover {
+	border: 2px solid black;
+}
+
+#more1 {
+	height: 230px;
+	font-size: 110%;
+	display: none;
+}
+
+#more1 p {
+	margin-top: 2em;
+	line-height: 185%;
+	text-align: center;
+}
+
+#more2 {
+	height: 230px;
+	font-size: 110%;
+	display: none;
+}
+
+#more2 p {
+	margin-top: 2em;
+	line-height: 185%;
+	text-align: center;
+}
+
+#feedback {
+	height: 270px;
+}
+
+#love {
+	margin-top: 3.5em;
+}
+#love h2 {
+	font-size: 245%;
+	color: #8B821F;
+}
+
+#reply {
+	position: relative;
+	top: -10px;
+	font-size: 115%;
+	color: black;
+}
+
+#reply button {
+	padding:10px 1em;
+	margin-top: 3em;
+	font-size: 100%;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	background-color: transparent;
+}
+
+#reply button:hover {
+	border: 2px solid black;
+}
+
+#storyCON {
+	height: 1650px;
+	padding: 0;
+}
+
+#storyCON p {
+	width: 95%;
+	margin-top: -1.5em;
+	margin-left: 1em;
+	line-height: 220%;
+
+}
+
+#storyCON strong {
+	font-size: 150%;
+	color: #876F2E;
+	line-height: 250%;
+}
+
+#storyCON button {
+	margin: 1em auto;
+	background-color: transparent;
+	border: 2px solid #8B821F;
+	font-size: 90%;
+	cursor: pointer;
+	width: 40%;
+}
+
+#storyCON button:hover {
+	border: 2px solid black;
+}
+
+#storyCON img {
+	margin-left: 5px;
+	position: relative;
+	top: -1px;
+}
+
+#storyCON .story {
+	margin-top: 1.5em;
+	margin-left: 1em;
+	display: inline;
+}
+
+.title {
+	margin-top: 1.5em;
+}
+
+#storyCON .name {
+	font-size: 120%;
+	margin-left: 5px;
+	padding-left: 5px;
+	border-left: 1px solid black;
+	display: inline;
+}
+
+#con1 {
+	height: 500px;
+	width: 100%;
+}
+
+#con2 {
+	height: 500px;
+	width: 100%;
+}
+
+#con3 {
+	height: 500px;
+	width: 100%;
+}
+
+#one {
+	background-image: url(../IMG/470355672.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 5%;
+}
+
+#two {
+	height: 250px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+
+#four {
+	background-image:url(../IMG/Breitkreutz-Dawn-Grant.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#three {
+	height: 250px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+#five {
+	background-image:url(../IMG/pickup1.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#six {
+	height: 250px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+#newsletter {
+	height: 270px;
+	padding: 0;
+	margin: 0;
+}
+
+#month {
+	width: 90%;
+	margin: 0 auto;
+	color: #8B821F;
+}
+
+#month h2 {
+	position: relative;
+	margin-top: 1em;
+	font-size: 310%;
+	line-height: 120%;
+}
+
+#mail {
+	position: relative;
+	margin-top: -10px;
+	font-size: 110%;
+}
+
+#mailwrap {
+	margin: auto;
+}
+
+#mail1 {
+	width: 90%;
+	position: relative;
+	left: -1.7em;
+	margin: 0 auto;
+}
+
+#mail1 button {
+	padding:7px 1em;
+	margin-top: -15.5px;
+	font-size: 100%;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	outline-offset:10px;
+	font-weight: bold;
+	outline: none;
+	float: left;
+	position: relative;
+	bottom: -.5em;
+	z-index: 99;
+	left: -5px;
+	background-color: white;
+}
+
+#mail1 button:hover {
+	border: 2px solid black;
+}
+
+#mail1 input[type=text] {
+	float: left;
+	width: 57%;
+	font-size: 126%;
+	margin-top: .5em;
+	outline: none;
+	padding: 5px 8px;
+	margin-left: 3.7em;
+	border: 1px solid #7B7B7B;
+}
+
+#footer {
+	background-color: black;
+	height: 220px;
+	display: block;
+}
+
+#footer #Fwrap {
+	color: #8B821F;
+	text-align: left;
+	padding-top: 3.5em;
+	margin-left: 1.7em;
+	width: 80%;
+}
+
+#footer ul{
+	color: white;
+	color: #8B821F;
+	line-height: 130%;
+	position: relative;
+	width: 100%;
+	left: -1em;
+}
+
+#footer ul li:nth-child(2) {  
+  padding-left: 1.4em;
+}
+
+#footer a {
+	color: white;
+	font-size: 90%;
+	display: inline;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #8B821F;
+}
+
+#footer li {
+	display: inline;
+	padding-right: 1.5em;
+	position: relative;
+	top: 1.2em;
+}
+
+#social {
+	position: relative;
+	left: 2em;
+	margin-top: 2.5em;
+	width: 90%;
+}
+
+#social img {
+	margin-right: 2.5em;
+}
+
+#contest-head {
+	width: 100%;
+	height: 350px;
+	background-image:url(../IMG/2015-ford-ranger-wildtrak-river_1800x1800.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 45% 80%;
+}
+
+#discription {
+	width: 100%;
+	height: 220px;
+}
+
+#rules {
+	height: 210px;
+	background-color: black;
+	color: white;
+}
+
+#rules h2 {
+	padding-top: 30px;
+	font-size: 400%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Evogria, Arial, "sans-serif";
+	font-style: italic;
+	letter-spacing: 4px;
+	line-height: 110%;
+}
+
+#rules p {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+#form {
+	height: 550px;
+	background-color: #F3F3F3;
+	text-align:center;
+}
+
+#coninfo {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#form li {
+	display:inline;
+}
+
+form ul {
+	margin-top: 3em;
+	padding: 0;
+}
+
+#nameField {
+	font-weight:100;
+	position: relative;
+	left: -3px;
+}
+
+#nameField2 {
+	font-weight:100;
+	margin-top: 1em;
+}
+
+#form input, textarea {
+	border:solid 1px #B0B0B0;
+	font-size:110%;
+	padding:.5em;
+	font-weight:100;
+	background:white;
+	width:85%;
+	margin:0 auto 2em;
+	outline: none;
+}
+
+#form input:focus {
+	border:solid 1px black;
+}
+
+#form input[type="date"]:before {
+    content: attr(placeholder) !important;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+	color: #585858;
+    margin-right: 0.5em;
+ }
+
+#form input[type="date"]:focus:before,
+#form input[type="date"]:valid:before {
+    content: "";
+  }
+
+#form input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden;
+	display: none  !important;
+	color: white;
+}	
+
+#form input[type="date"]{
+	font-family: Helvetica, Arial, "sans-serif";
+	color: #585858;
+}
+
+.date {
+	margin-top: 15px;
+}
+
+#loc {
+	margin-top: 15px;
+}
+
+#gender {
+	width: 30%;
+	height: 50px;
+}
+
+.radio {
+	float: left;
+	width: 40%;
+	background-color: white;
+	border: 1px solid #B0B0B0;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	position: relative;
+	top: -1.25em;
+	color: #646464;
+	font-weight: 400;
+}
+
+.radio:hover {
+	border: 1px solid black;
+}
+
+#btnSubmit {
+	width: 85%;
+	font-size: 115%;
+	background-color: white;
+	border: 1px solid #B0B0B0;
+	cursor: pointer;
+	color: #8B821F;
+	letter-spacing: 1px;
+	height: 41px;
+}
+
+#btnSubmit:hover {
+	border: 1px solid black;
+	color: black;
+}
+
+#form input[type="radio"]{
+	width: 2%;
+	display: none;
+}
+
+#form input[type="radio"] + label{
+   display: inline-block;
+   margin-bottom: 1.2em;
+   position: relative;
+   top: -1.25em;
+	width: 47%;
+}
+
+#form input[type="radio"]:checked  + label{
+	background-color: black;
+	color: white;
+}
+
+#firstradio {
+	margin-right: 1em;
+}
+
+#select {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 8px;
+	font-weight: 100;
+}
+
+#prize {
+	height: 750px;
+	margin-top: 2.5em;
+}
+
+#prize h4 {
+	text-align: center;
+	line-height: 130%;
+}
+
+#prize h4 span{
+	color: #8B821F;
+}
+
+#prize-icon1 {
+	background-color: #F5F5F5;
+	background-image: url(../IMG/Logomakr_2Gd7nv.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+	
+}
+
+#prize-icon2 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_7k4Xus.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 45%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize-icon3 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_6ixAZh.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+#prize2 {
+	margin-top: 2.5em;
+}
+
+#prize3 {
+	margin-top: 2.5em;
+}
+
+#season-intro {
+	background-image: url(../IMG/2015-Chevrolet-Silverado-3500HD-LTZ-front-three-quarters-in-motion.jpg);
+	height: 350px;
+	background-size: cover;
+	background-position: 25% 50%;
+	background-repeat: no-repeat;
+}
+
+#seasonOne {
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+
+#seasonOne h2{
+	font-size: 450%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Evogria, Arial, "sans-serif";
+	font-style: italic;
+	letter-spacing: 4px;
+	line-height: 110%;
+	padding-top: 35px;
+	padding-right: .2em;
+	padding-left: .2em;
+}
+
+#purchase {
+	height: 330px;
+}
+
+#get p {
+	margin: 1em auto;
+	font-size: 295%;
+	line-height: 125%;	
+}
+
+#get strong{
+	color: #8B821F;
+}
+
+#buy button {
+	margin: 0 auto;
+	padding:5px 2.5em;
+	font-size: 140%;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	background-color: transparent;
+}
+
+#buy button:hover {
+	border: 2px solid black;
+}
+
+.truck-wrap {
+	height: 450px;
+	background-color: #F5F5F5;
+}
+
+.Truck1 {
+	height: 380px;
+}
+
+.Truck1 img {
+	margin-top: 2.5em;
+}
+
+.note {
+	padding-top: 1em;
+	line-height: 200%;
+}
+
+#truck2 {
+	margin-left: 1em;
+}
+
+
+#tabs {
+	margin-top: .8em;
+}
+
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}
+
+.flickity-prev-next-button svg {
+    position: absolute;
+    left: 20%;
+    top: 26%;
+    width: 40%;
+    height: 40%;
+	z-index: 99;
+}
+
+.flickity-prev-next-button {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    background: hsla(0,0%,100%,.75);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	display: none;
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  margin-right: 10px;
+}
+
+#text {
+	background-color: white;
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 350px;
+}
+
+#box {
+	background-color: white;
+	margin: auto;
+	width: 75%;
+	height: 75%;
+	margin-top: 3em;
+	box-shadow: 5px 5px 35px lightgrey;
+}
+
+#box p {
+	padding: 1.5em 2em;
+	line-height: 230%;
+	font-size: 100%;
+	text-align: center;
+	margin: auto;
+	color: #8B821F;
+}
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+  -moz-transition: all 700ms ease-out;
+  -webkit-transition: all 700ms ease-out;
+  -o-transition: all 700ms ease-out;
+  transition: all 700ms ease-out;
+  -moz-transform: translate3d(0px, 200px, 0px);
+  -webkit-transform: translate3d(0px, 200px, 0px);
+  -o-transform: translate(0px, 200px);
+  -ms-transform: translate(0px, 200px);
+  transform: translate3d(0px, 200, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+@media screen and (min-width: 1024px){
+	#love h2 {
+	font-size: 400%!important;
+	color: #8B821F!important;
+}
+	#love {
+		margin-top: 2.5em!important;
+	}
+
+	#reply {
+	position: relative;
+	top: -10px;
+	font-size: 189%!important;
+	color: black;
+}
+	#reply button {
+	padding:10px 1em;
+	margin-top: 1.5em!important;
+	font-size: 60%!important;
+	cursor: pointer;
+	border: 2px solid #8B821F;
+	background-color: transparent;
+}
+	
+	#prize-icon1 {
+	background-color: #F5F5F5;
+	background-image: url(../IMG/Logomakr_2Gd7nv.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+	width: 200px!important;
+	height: 200px!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize-icon2 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_7k4Xus.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 45%;
+	width: 200px!important;
+	height: 200px!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize-icon3 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_6ixAZh.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 200px!important;
+	height: 200px!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+#prize {
+		height: 500px!important;
+		position: relative!important;
+		top: -1em!important;
+	}
+
+#prize2 {
+	margin-top: 0!important;
+}
+
+#prize3 {
+	margin-top: 0!important;
+}
+	
+#rules {
+	height: 145px!important;
+	background-color: black;
+	color: white;
+}
+	#discription {
+	width: 100%;
+	height: 155px!important;
+}
+	#form {
+		margin-top: 3em!important;
+	}
+	
+	#form input, textarea {
+	border:solid 1px #B0B0B0;
+	font-size:110%;
+	padding:.5em;
+	font-weight:100;
+	background:white;
+	width:60%!important;
+	margin:0 auto 2em;
+	outline: none;
+}
+	#btnSubmit {
+	width: 60%!important;
+	font-size: 115%;
+	background-color: white;
+	border: 1px solid #B0B0B0;
+	cursor: pointer;
+	color: #8B821F;
+	letter-spacing: 1px;
+	height: 41px;
+}
+	#select {
+	width: 60%!important;
+	margin: 0 auto;
+	padding-top: 8px;
+	font-weight: 100;
+}
+	#firstradio {
+	margin-right: 2.5em!important;
+}
+	
+	.flickity-prev-next-button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+	.note P {
+	font-size: 130%!important;	
+	}
+	
+	.truck-img img {
+	margin-top: 3.5em!important;
+	width: 350px;
+	height: 235px;
+	}
+	
+	#box p {
+		font-size: 160%!important;
+		padding-top: 0;
+	}
+	
+	#get p {
+		font-size: 370%;
+		position: relative;
+		right: -1em;
+		margin-top: 1.3em;
+	}
+	
+	#buy {
+		margin-top: 6.5em;
+		font-size: 150%;
+		position: relative;
+		right: 1em;
+	}
+	
+#more1 {
+	height: 230px;
+	font-size: 150%!important;
+	display: none;
+}
+	
+#more1 p {
+	margin-top: 2em;
+	line-height: 200%!important;
+	text-align: center;
+	padding: .5em 4em 0 4em!important;
+}
+
+#more2 {
+	height: 230px;
+	font-size: 150%!important;
+	display: none;
+}
+
+#more2 p {
+	margin-top: 2em;
+	line-height: 200%!important;
+	text-align: center;
+	padding: 0.5em 4em 0 4em!important;
+}
+}
+	
+	
+@media screen and (min-width: 480px) {
+   .collapse {
+	float: right;
+}
+	.btn {
+		margin-left: 6px;
+	}
+}
+
+@media screen and (min-width: 768px){	
+.navbar {
+    border-radius: 0px;
+}
+	#mail1 input[type=text] {
+    	position: relative;
+		left: 2.4em;
+ }
+	#mailwrap button {
+		width: 20%;
+		position: relative;
+		left: 2.2em!important;
+		top: 5px;
+		font-weight: 400!important;
+		font-size: 120%!important;
+		padding: 4.8px!important;
+	}
+	
+	#best #nyt{
+		margin-top: 3em!important;
+	}
+	
+	#best p:first-child {
+		padding-top: 6px;
+	}
+	
+	.story {
+		float: left!important;
+		width: 100%;
+		border-right: 1px solid black;
+		height: 70%;
+		margin-top: 2em;
+		padding-right: 1.5em;
+		font-size: 130%;
+		text-align:right;
+		padding-top: 6px;
+		display: block!important; 
+	}
+	
+	.name {
+		float: right;
+		top: -6.5em;
+		right: 11px;
+		position: relative;
+		font-size: 150%;
+		border: none!important;
+	}
+	
+	#storyCON p {
+		float: right!important;
+		width: 65%!important;
+		margin-top: 1.7em!important;
+		position: relative;
+		left: -1.8em;
+		font-size: 120%;
+		display: block!important;
+	}
+	
+	#storyCON button {
+		width: 30%!important;
+	}
+	
+	.title {
+		height: 100%;
+		float: left;
+		width: 25%;
+		margin-top: 0!important;
+	}
+	
+	#prize {
+	height: 230px!important;
+	margin-top: 2.1em!important;
+}
+
+#prize h4 {
+	text-align: center;
+}
+
+#prize-icon1 {
+	background-color: #F5F5F5;
+	background-image: url(../IMG/Logomakr_2Gd7nv.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize-icon2 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_7k4Xus.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 45% 45%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize-icon3 {
+	background-color: #F5F5F5;
+	background-image:url(../IMG/Logomakr_6ixAZh.png);
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+#prize2 {
+	margin-top: 0!important;
+}
+
+#prize3 {
+	margin-top: 0!important;
+}
+	
+#rules {
+	height: 145px!important;
+	background-color: black;
+	color: white;
+}
+	#discription {
+	width: 100%;
+	height: 155px!important;
+}
+	#firstradio {
+	margin-right: 2.5em!important;
+}
+	
+	#seasonOne {
+		height: 135px!important;
+	}
+	
+	#box p {
+	padding: 2.5em 3.5em;
+	line-height: 250%!important;
+	font-size: 130%;
+	text-align: center;
+	margin: auto;
+	color: #8B821F;
+	}
+	
+	.truck-wrap {
+		height: 350px!important;
+	}
+	
+	.note p {
+		position: relative;
+		left: -2em;
+		margin-top: 2.5em;
+		font-size: 110%;
+		line-height: 220%;
+		text-align: left;
+		color:#212121;
+		width: 80%;
+	}
+	
+	.truck-img img {
+		margin-top: 5em;
+	}
+	
+#more1 {
+	height: 230px;
+	font-size: 130%;
+	display: none;
+}
+	
+#more1 p {
+	margin-top: 2em;
+	line-height: 200%;
+	text-align: center;
+	padding: 1em 2em 0 2em;
+}
+
+#more2 {
+	height: 230px;
+	font-size: 130%;
+	display: none;
+}
+
+#more2 p {
+	margin-top: 2em;
+	line-height: 200%;
+	text-align: center;
+	padding: 1em 2em 0 2em;
+}
+}
+
+@media (max-width: 768px) {
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #876F2E;
+}
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: white;
+	background-color: transparent;
+}
+}
+
+@media screen and (max-width: 480px) {
+  	#intro button {
+	position: relative;
+	top: 9.5em;
+	}
+	
+	.rating span {
+	font-size: 600%!important;
+	color: #876F2E;
+	margin: 0 auto;
+	letter-spacing: 10px!important;
+	position: relative;
+	top: 10px!important;
+	left: 5px!important;
+	text-align: center;
+}
+	#best p {
+	text-align: center;
+	width: 90%!important;
+	margin: 0 auto;
+	font-size: 170%!important;
+	font-weight: bold;
+	clear: both;
+}
+	#intro {
+	background-image:url(../IMG/2015-GMC-Canyon-with-GMC-Three-Truck-004.jpg);
+	height: 700px;
+	width: 100%!important;
+	background-repeat: no-repeat;
+	background-size:auto 115%!important;
+	background-position: 51% 50%;
+	margin-top: -20px;
+	overflow: hidden!important;
+}
+	
+	#season1 #left {
+		background-position: 70% 50%;
+	}
+	
+	#season2 #right1 {
+		background-position: 70% 50%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#best p {
+		font-size: 150%!important;
+	}
+	
+	.rating span {
+		font-size: 500%!important;
+		margin: 0 auto!important;
+		letter-spacing: 5px!important;
+	}
+	
+	#best {
+		height: 225px!important;
+	}
+	
+	#intro h1 {
+		font-size: 600%!important;
+	}
+	
+	#season1 #right p {
+		font-size: 280%;
+		margin-top: 5px;
+	}
+	
+	#season2 #left1 p {
+		font-size: 270%;
+		margin-top: 5px;
+	}
+	
+	#feedback h2 {
+		font-size: 190%!important;
+		margin-top: -.2em;
+	}
+	
+	#feedback #reply {
+		font-size: 137%!important;
+		padding: 0 1.3em;
+		position: relative;
+		font-weight: 400;
+	}
+	
+	#feedback button {
+		font-size: 80%!important;
+	}
+	
+	#newsletter #month {
+		font-size: 65%!important;
+		padding-top: 1.5em;
+	}
+	
+	#newsletter #mail {
+		font-size: 125%!important;
+		padding: 0 3em;
+	}
+	
+	#newsletter #mail1 {
+		font-size: 85%!important;
+		padding: 0!important;
+		margin: 0!important;
+	}
+	
+	#mail1 input[type=text] {
+    	margin-left: 1.8em!important;
+		width: 66%!important;
+		position: relative;
+		left: 7px;
+ }
+	
+	#mailwrap button {
+		width: 23.5%!important;
+		font-weight: normal!important;
+		padding: 4px!important;
+		font-size: 125%!important;
+		text-align: center!important;
+		left: 6px!important;
+		top: 7px;
+	}
+	
+	#mailwrap {
+		width: 100%;
+	}
+	
+	#footer #Fwrap {
+		width:90%!important;
+		position: relative;
+		left: -1em;
+	}
+	
+	#footer ul {
+		width:100%!important;
+		margin: 0!important;
+		padding-left: 1.8em;
+	}
+	
+	#footer li {
+		padding-right: 1em!important;
+		font-size: 90%;
+	}
+	
+	#social img {
+		position: relative;
+		right: 1em!important;
+	}
+	
+}
+
+@media screen and (max-width:425px) {
+	#best p {
+	margin-top: 1.5em!important;
+}
+}
